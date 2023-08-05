@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA8E65E72A6F626C008D4A4F /* C4A_CommunicationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8E65E62A6F626C008D4A4F /* C4A_CommunicationsApp.swift */; };
+		BA8E65E92A6F626C008D4A4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8E65E82A6F626C008D4A4F /* ContentView.swift */; };
+		BA8E65EB2A6F626E008D4A4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA8E65EA2A6F626E008D4A4F /* Assets.xcassets */; };
+		BA8E65EE2A6F626E008D4A4F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA8E65ED2A6F626E008D4A4F /* Preview Assets.xcassets */; };
+		BA8E65F82A6F626E008D4A4F /* C4A_CommunicationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8E65F72A6F626E008D4A4F /* C4A_CommunicationsTests.swift */; };
+		BA8E66022A6F626E008D4A4F /* C4A_CommunicationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8E66012A6F626E008D4A4F /* C4A_CommunicationsUITests.swift */; };
+		BA8E66042A6F626E008D4A4F /* C4A_CommunicationsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8E66032A6F626E008D4A4F /* C4A_CommunicationsUITestsLaunchTests.swift */; };
+		BA8E66122A6F6604008D4A4F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA8E66112A6F6604008D4A4F /* StoreKit.framework */; };
+		BA8E66182A7050E1008D4A4F /* SocialStories.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8E66172A7050E1008D4A4F /* SocialStories.swift */; };
+		BA8E661A2A705119008D4A4F /* VideoModeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8E66192A705119008D4A4F /* VideoModeling.swift */; };
+		BA8E661C2A705133008D4A4F /* Social Skills Games.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8E661B2A705133008D4A4F /* Social Skills Games.swift */; };
+		BA8E661E2A705156008D4A4F /* Social Scenarios.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8E661D2A705156008D4A4F /* Social Scenarios.swift */; };
+		BA8E66202A705172008D4A4F /* STEM eductaion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8E661F2A705172008D4A4F /* STEM eductaion.swift */; };
+		BA8E66222A705185008D4A4F /* Emotional  Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8E66212A705185008D4A4F /* Emotional  Practice.swift */; };
+		BA8E66242A7051DC008D4A4F /* Bookmarks.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8E66232A7051DC008D4A4F /* Bookmarks.swift */; };
+		BAA3B7E02A7D9A0D00E492E7 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA3B7DF2A7D9A0D00E492E7 /* Random.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA8E65F42A6F626E008D4A4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA8E65DB2A6F626C008D4A4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA8E65E22A6F626C008D4A4F;
+			remoteInfo = "C4A Communications";
+		};
+		BA8E65FE2A6F626E008D4A4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA8E65DB2A6F626C008D4A4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA8E65E22A6F626C008D4A4F;
+			remoteInfo = "C4A Communications";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA8E65E32A6F626C008D4A4F /* C4A Communications.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "C4A Communications.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8E65E62A6F626C008D4A4F /* C4A_CommunicationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C4A_CommunicationsApp.swift; sourceTree = "<group>"; };
+		BA8E65E82A6F626C008D4A4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BA8E65EA2A6F626E008D4A4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA8E65ED2A6F626E008D4A4F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA8E65F32A6F626E008D4A4F /* C4A CommunicationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "C4A CommunicationsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8E65F72A6F626E008D4A4F /* C4A_CommunicationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C4A_CommunicationsTests.swift; sourceTree = "<group>"; };
+		BA8E65FD2A6F626E008D4A4F /* C4A CommunicationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "C4A CommunicationsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8E66012A6F626E008D4A4F /* C4A_CommunicationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C4A_CommunicationsUITests.swift; sourceTree = "<group>"; };
+		BA8E66032A6F626E008D4A4F /* C4A_CommunicationsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C4A_CommunicationsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BA8E66112A6F6604008D4A4F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		BA8E66172A7050E1008D4A4F /* SocialStories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialStories.swift; sourceTree = "<group>"; };
+		BA8E66192A705119008D4A4F /* VideoModeling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModeling.swift; sourceTree = "<group>"; };
+		BA8E661B2A705133008D4A4F /* Social Skills Games.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Social Skills Games.swift"; sourceTree = "<group>"; };
+		BA8E661D2A705156008D4A4F /* Social Scenarios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Social Scenarios.swift"; sourceTree = "<group>"; };
+		BA8E661F2A705172008D4A4F /* STEM eductaion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "STEM eductaion.swift"; sourceTree = "<group>"; };
+		BA8E66212A705185008D4A4F /* Emotional  Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Emotional  Practice.swift"; sourceTree = "<group>"; };
+		BA8E66232A7051DC008D4A4F /* Bookmarks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bookmarks.swift; sourceTree = "<group>"; };
+		BAA3B7DF2A7D9A0D00E492E7 /* Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA8E65E02A6F626C008D4A4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8E66122A6F6604008D4A4F /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8E65F02A6F626E008D4A4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8E65FA2A6F626E008D4A4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA8E65DA2A6F626C008D4A4F = {
+			isa = PBXGroup;
+			children = (
+				BA8E65E52A6F626C008D4A4F /* C4A Communications */,
+				BA8E65F62A6F626E008D4A4F /* C4A CommunicationsTests */,
+				BA8E66002A6F626E008D4A4F /* C4A CommunicationsUITests */,
+				BA8E65E42A6F626C008D4A4F /* Products */,
+				BA8E66102A6F6604008D4A4F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BA8E65E42A6F626C008D4A4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA8E65E32A6F626C008D4A4F /* C4A Communications.app */,
+				BA8E65F32A6F626E008D4A4F /* C4A CommunicationsTests.xctest */,
+				BA8E65FD2A6F626E008D4A4F /* C4A CommunicationsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA8E65E52A6F626C008D4A4F /* C4A Communications */ = {
+			isa = PBXGroup;
+			children = (
+				BA8E65E62A6F626C008D4A4F /* C4A_CommunicationsApp.swift */,
+				BA8E65E82A6F626C008D4A4F /* ContentView.swift */,
+				BA8E66172A7050E1008D4A4F /* SocialStories.swift */,
+				BA8E66192A705119008D4A4F /* VideoModeling.swift */,
+				BA8E661B2A705133008D4A4F /* Social Skills Games.swift */,
+				BA8E661D2A705156008D4A4F /* Social Scenarios.swift */,
+				BA8E661F2A705172008D4A4F /* STEM eductaion.swift */,
+				BA8E66212A705185008D4A4F /* Emotional  Practice.swift */,
+				BA8E66232A7051DC008D4A4F /* Bookmarks.swift */,
+				BAA3B7DF2A7D9A0D00E492E7 /* Random.swift */,
+				BA8E65EA2A6F626E008D4A4F /* Assets.xcassets */,
+				BA8E65EC2A6F626E008D4A4F /* Preview Content */,
+			);
+			path = "C4A Communications";
+			sourceTree = "<group>";
+		};
+		BA8E65EC2A6F626E008D4A4F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BA8E65ED2A6F626E008D4A4F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BA8E65F62A6F626E008D4A4F /* C4A CommunicationsTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA8E65F72A6F626E008D4A4F /* C4A_CommunicationsTests.swift */,
+			);
+			path = "C4A CommunicationsTests";
+			sourceTree = "<group>";
+		};
+		BA8E66002A6F626E008D4A4F /* C4A CommunicationsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA8E66012A6F626E008D4A4F /* C4A_CommunicationsUITests.swift */,
+				BA8E66032A6F626E008D4A4F /* C4A_CommunicationsUITestsLaunchTests.swift */,
+			);
+			path = "C4A CommunicationsUITests";
+			sourceTree = "<group>";
+		};
+		BA8E66102A6F6604008D4A4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA8E66112A6F6604008D4A4F /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA8E65E22A6F626C008D4A4F /* C4A Communications */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA8E66072A6F626E008D4A4F /* Build configuration list for PBXNativeTarget "C4A Communications" */;
+			buildPhases = (
+				BA8E65DF2A6F626C008D4A4F /* Sources */,
+				BA8E65E02A6F626C008D4A4F /* Frameworks */,
+				BA8E65E12A6F626C008D4A4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C4A Communications";
+			productName = "C4A Communications";
+			productReference = BA8E65E32A6F626C008D4A4F /* C4A Communications.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA8E65F22A6F626E008D4A4F /* C4A CommunicationsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA8E660A2A6F626E008D4A4F /* Build configuration list for PBXNativeTarget "C4A CommunicationsTests" */;
+			buildPhases = (
+				BA8E65EF2A6F626E008D4A4F /* Sources */,
+				BA8E65F02A6F626E008D4A4F /* Frameworks */,
+				BA8E65F12A6F626E008D4A4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA8E65F52A6F626E008D4A4F /* PBXTargetDependency */,
+			);
+			name = "C4A CommunicationsTests";
+			productName = "C4A CommunicationsTests";
+			productReference = BA8E65F32A6F626E008D4A4F /* C4A CommunicationsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA8E65FC2A6F626E008D4A4F /* C4A CommunicationsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA8E660D2A6F626E008D4A4F /* Build configuration list for PBXNativeTarget "C4A CommunicationsUITests" */;
+			buildPhases = (
+				BA8E65F92A6F626E008D4A4F /* Sources */,
+				BA8E65FA2A6F626E008D4A4F /* Frameworks */,
+				BA8E65FB2A6F626E008D4A4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA8E65FF2A6F626E008D4A4F /* PBXTargetDependency */,
+			);
+			name = "C4A CommunicationsUITests";
+			productName = "C4A CommunicationsUITests";
+			productReference = BA8E65FD2A6F626E008D4A4F /* C4A CommunicationsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA8E65DB2A6F626C008D4A4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BA8E65E22A6F626C008D4A4F = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					BA8E65F22A6F626E008D4A4F = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BA8E65E22A6F626C008D4A4F;
+					};
+					BA8E65FC2A6F626E008D4A4F = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BA8E65E22A6F626C008D4A4F;
+					};
+				};
+			};
+			buildConfigurationList = BA8E65DE2A6F626C008D4A4F /* Build configuration list for PBXProject "C4A Communications" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA8E65DA2A6F626C008D4A4F;
+			productRefGroup = BA8E65E42A6F626C008D4A4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA8E65E22A6F626C008D4A4F /* C4A Communications */,
+				BA8E65F22A6F626E008D4A4F /* C4A CommunicationsTests */,
+				BA8E65FC2A6F626E008D4A4F /* C4A CommunicationsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA8E65E12A6F626C008D4A4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8E65EE2A6F626E008D4A4F /* Preview Assets.xcassets in Resources */,
+				BA8E65EB2A6F626E008D4A4F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8E65F12A6F626E008D4A4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8E65FB2A6F626E008D4A4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA8E65DF2A6F626C008D4A4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8E66202A705172008D4A4F /* STEM eductaion.swift in Sources */,
+				BA8E661C2A705133008D4A4F /* Social Skills Games.swift in Sources */,
+				BAA3B7E02A7D9A0D00E492E7 /* Random.swift in Sources */,
+				BA8E66242A7051DC008D4A4F /* Bookmarks.swift in Sources */,
+				BA8E661E2A705156008D4A4F /* Social Scenarios.swift in Sources */,
+				BA8E661A2A705119008D4A4F /* VideoModeling.swift in Sources */,
+				BA8E65E92A6F626C008D4A4F /* ContentView.swift in Sources */,
+				BA8E65E72A6F626C008D4A4F /* C4A_CommunicationsApp.swift in Sources */,
+				BA8E66182A7050E1008D4A4F /* SocialStories.swift in Sources */,
+				BA8E66222A705185008D4A4F /* Emotional  Practice.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8E65EF2A6F626E008D4A4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8E65F82A6F626E008D4A4F /* C4A_CommunicationsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8E65F92A6F626E008D4A4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8E66042A6F626E008D4A4F /* C4A_CommunicationsUITestsLaunchTests.swift in Sources */,
+				BA8E66022A6F626E008D4A4F /* C4A_CommunicationsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA8E65F52A6F626E008D4A4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA8E65E22A6F626C008D4A4F /* C4A Communications */;
+			targetProxy = BA8E65F42A6F626E008D4A4F /* PBXContainerItemProxy */;
+		};
+		BA8E65FF2A6F626E008D4A4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA8E65E22A6F626C008D4A4F /* C4A Communications */;
+			targetProxy = BA8E65FE2A6F626E008D4A4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BA8E66052A6F626E008D4A4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA8E66062A6F626E008D4A4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA8E66082A6F626E008D4A4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"C4A Communications/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vishnu-Pullela.C4A-Communications";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA8E66092A6F626E008D4A4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"C4A Communications/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vishnu-Pullela.C4A-Communications";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA8E660B2A6F626E008D4A4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vishnu-Pullela.C4A-CommunicationsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/C4A Communications.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/C4A Communications";
+			};
+			name = Debug;
+		};
+		BA8E660C2A6F626E008D4A4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vishnu-Pullela.C4A-CommunicationsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/C4A Communications.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/C4A Communications";
+			};
+			name = Release;
+		};
+		BA8E660E2A6F626E008D4A4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vishnu-Pullela.C4A-CommunicationsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "C4A Communications";
+			};
+			name = Debug;
+		};
+		BA8E660F2A6F626E008D4A4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vishnu-Pullela.C4A-CommunicationsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "C4A Communications";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA8E65DE2A6F626C008D4A4F /* Build configuration list for PBXProject "C4A Communications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8E66052A6F626E008D4A4F /* Debug */,
+				BA8E66062A6F626E008D4A4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA8E66072A6F626E008D4A4F /* Build configuration list for PBXNativeTarget "C4A Communications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8E66082A6F626E008D4A4F /* Debug */,
+				BA8E66092A6F626E008D4A4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA8E660A2A6F626E008D4A4F /* Build configuration list for PBXNativeTarget "C4A CommunicationsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8E660B2A6F626E008D4A4F /* Debug */,
+				BA8E660C2A6F626E008D4A4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA8E660D2A6F626E008D4A4F /* Build configuration list for PBXNativeTarget "C4A CommunicationsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8E660E2A6F626E008D4A4F /* Debug */,
+				BA8E660F2A6F626E008D4A4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA8E65DB2A6F626C008D4A4F /* Project object */;
+}
